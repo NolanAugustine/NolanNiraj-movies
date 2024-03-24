@@ -1,16 +1,28 @@
-
-
-.list {
-  background-color: blue;
-  margin:auto;
-  width:50%;
-  padding-right: 20px;
+ul{
+  background-color: #FAF0CA;
+  padding: 0;
+  margin:0;
+  list-style:none;
+  float:left;
+  width: 100%;
+  overflow: hidden;
 }
-h1 {
-  color: #D62828;
-  margin:auto;
-  width:50%;
+
+ul li{
+  float: left;
+  border-right: 2px solid #F95738;
 }
-ul {
-  color: #003049;
+
+ul li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  padding: none;
+  color: #F95738;
+  font-weight: bold;
+}
+
+ul li a:hover{
+  background-color: #F4D35E;
 }
