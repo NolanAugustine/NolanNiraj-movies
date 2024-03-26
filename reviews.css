@@ -1,0 +1,19 @@
+
+.review_links{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.review_links a{
+    border-radius: 6px;
+    transition: all .5s ease-in-out
+}
+
+.review_links a:hover{
+    filter:blur(2px)
+
+}
+/*ul.review_links a:hover{}
